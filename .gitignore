@@ -1,0 +1,5 @@
+RAGB_venv/
+__pycache__/
+.DS_Store
+vector_db/
+.env
