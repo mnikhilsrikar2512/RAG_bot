@@ -1,20 +1,29 @@
-# RAG_bot
-# RAG Bot – Local Document Q&A
+# RAG Bot – AI Chatbot with Contextual Intelligence
 
-A fast, fully local Retrieval-Augmented Generation (RAG) chatbot that answers questions strictly from your documents.
+An AI-powered chatbot that uses Retrieval-Augmented Generation (RAG) to provide accurate, context-aware responses by combining semantic search with language models.
 
-Built with:
-- LangChain  
-- FAISS (vector store)  
-- HuggingFace embeddings  
-- Ollama (Mistral)  
-- Gradio UI  
+## 🚀 Features
 
-## Features
-- Answers only from uploaded documents  
-- Chat-friendly follow-ups (“elaborate”, “tell me more”, etc.)  
-- Runs fully offline  
-- Sub-second responses  
+- Context-aware question answering  
+- Semantic search using embeddings  
+- Vector database integration  
+- LLM-based response generation  
+- FastAPI backend for API access  
+
+## 🧠 How It Works
+
+1. User sends a query  
+2. System converts query into embeddings  
+3. Relevant data is retrieved from vector storage  
+4. LLM generates a response using retrieved context  
+5. Final answer is returned to the user  
+
+## 🛠 Tech Stack
+
+- Python  
+- FastAPI  
+- Embeddings / Vector Search  
+- LLM Integration  
 
 ## Setup
 
