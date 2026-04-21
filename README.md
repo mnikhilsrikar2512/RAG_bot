@@ -16,7 +16,14 @@ An AI-powered chatbot that uses Retrieval-Augmented Generation (RAG) to provide 
 2. System converts query into embeddings  
 3. Relevant data is retrieved from vector storage  
 4. LLM generates a response using retrieved context  
-5. Final answer is returned to the user  
+5. Final answer is returned to the user
+
+## 📌 Use Cases
+
+- AI assistants  
+- Customer support automation  
+- Knowledge base search  
+- Content enhancement tools    
 
 ## 🛠 Tech Stack
 
